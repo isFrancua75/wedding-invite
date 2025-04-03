@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8e8e8;
+    color: #3C241C;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.invitation {
+    background: white;
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #6A4436;
+    font-size: 32px;
+}
+
+.date, .location {
+    font-size: 18px;
+    color: #9E6E66;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.program {
+    margin-top: 20px;
+}
+
+.program h2 {
+    color: #6A4436;
+    font-size: 22px;
+}
+
+.program ul {
+    list-style: none;
+    padding: 0;
+}
+
+.program li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.palette h2 {
+    font-size: 22px;
+    color: #6A4436;
+    margin-top: 20px;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.color {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.confirm-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #6A4436;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.confirm-btn:hover {
+    background: #9E6E66;
+}
